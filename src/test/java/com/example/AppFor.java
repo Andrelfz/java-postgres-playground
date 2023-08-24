@@ -1,7 +1,7 @@
 package com.example;
 
 public class AppFor {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         int vetor[] = new int[10];
         
        for (int i = 0; i < vetor.length; i++) {
@@ -9,5 +9,10 @@ public class AppFor {
         vetor[i] = vetor[i]++;
        } 
        System.out.println(vetor[2]);
+    }
+    */
+    public static void main(String[] args) {
+
+        
     }
 }
