@@ -81,12 +81,12 @@ public class ClassesJava {
         andre.setNomeCliente("André Luiz");
         andre.setAnoNascimento(1996);
         Funcionario jorge = new Funcionario();
-        jorge.setCpf("0222227689242");
-        jorge.setAnoNascimento(1988);
         Scanner entradaDados = new Scanner(System.in);
-        
+        System.out.print("Digite o cpf: ");
+        jorge.setCpf(entradaDados.nextLine());
+        System.out.print("Digite o ano do nascimento: ");
+        jorge.setAnoNascimento(entradaDados.nextInt());
 
-        
        
         if(andre.getCpf().equals(jorge.getCpf())){
             System.out.println("Inválido, os CPFs são iguais!");
